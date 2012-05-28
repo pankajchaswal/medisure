@@ -1,0 +1,20 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<parent>
+		<artifactId>parent-build</artifactId>
+		<groupId>medisure</groupId>
+		<version>1.0.0-SNAPSHOT</version>
+		<relativePath>../parent-build/pom.xml</relativePath>
+	</parent>
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>medisure</groupId>
+	<artifactId>build-all</artifactId>
+	<packaging>pom</packaging>
+	<name>MEDISURE-All</name>
+	<modules>
+		<module>../application/medisure-util</module>
+		<module>../application/medisure-domain</module>
+		<module>../application/medisure-services</module>
+		<module>../application/medisure-ui</module>
+	</modules>
+</project>
